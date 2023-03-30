@@ -4,7 +4,7 @@ import org.jboard.Alliance;
 import org.jboard.board.Board;
 import org.jboard.board.Move;
 
-import java.util.List;
+import java.util.Collection;
 
 public abstract class Piece {
 
@@ -19,7 +19,7 @@ public abstract class Piece {
     public Alliance getPieceAlliance() {
         return this.pieceAlliance;
     }
-    public abstract List<Move> calculateLegalMoves(final Board board);
+    public abstract Collection<Move> calculateLegalMoves(final Board board);
 
 
 
