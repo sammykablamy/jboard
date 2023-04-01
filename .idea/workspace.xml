@@ -4,12 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8fc334f9-c970-4a76-81c4-37f4de1a8251" name="Changes" comment="Added Knight, Board, Move, and Alliance; worked on Piece, started Knight.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/jboard/board/BoardUtils.java" afterDir="false" />
+    <list default="true" id="8fc334f9-c970-4a76-81c4-37f4de1a8251" name="Changes" comment="Built out Knight, need to make corresponding Moves for logic. Created initColumn method for BoardUtils. Changed calculateLegalMoves to return Collection&lt;Move&gt; rather than List&lt;Move&gt;. Cleaned.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/jboard/pieces/Bishop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/jboard/pieces/Pawn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/jboard/pieces/Queen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/jboard/pieces/Rook.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/jboard/Alliance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/jboard/Alliance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/jboard/board/BoardUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/jboard/board/BoardUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/jboard/board/Move.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/jboard/board/Move.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/jboard/board/Tile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/jboard/board/Tile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/jboard/pieces/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/jboard/pieces/Knight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/jboard/pieces/Piece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/jboard/pieces/Piece.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,12 +90,20 @@
       <option name="project" value="LOCAL" />
       <updated>1680196555216</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Built out Knight, need to make corresponding Moves for logic. Created initColumn method for BoardUtils. Changed calculateLegalMoves to return Collection&lt;Move&gt; rather than List&lt;Move&gt;. Cleaned.">
+      <created>1680199319336</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1680199319336</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Working on keeping things immutable. Things are going well." />
     <MESSAGE value="Added Knight, Board, Move, and Alliance; worked on Piece, started Knight." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Knight, Board, Move, and Alliance; worked on Piece, started Knight." />
+    <MESSAGE value="Built out Knight, need to make corresponding Moves for logic. Created initColumn method for BoardUtils. Changed calculateLegalMoves to return Collection&lt;Move&gt; rather than List&lt;Move&gt;. Cleaned." />
+    <option name="LAST_COMMIT_MESSAGE" value="Built out Knight, need to make corresponding Moves for logic. Created initColumn method for BoardUtils. Changed calculateLegalMoves to return Collection&lt;Move&gt; rather than List&lt;Move&gt;. Cleaned." />
   </component>
 </project>
